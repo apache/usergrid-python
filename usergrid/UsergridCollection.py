@@ -17,6 +17,8 @@
 # * under the License.
 # */
 
+import json
+
 __author__ = 'Jeff.West@yahoo.com'
 
 
@@ -79,4 +81,3 @@ class UsergridCollection(object):
                                 data=entity,
                                 api_response=r,
                                 url=url)
-
